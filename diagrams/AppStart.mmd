@@ -1,0 +1,12 @@
+sequenceDiagram
+autonumber
+participant App as Application
+participant MW as MainWindow (Router)
+participant AS as AppState
+participant LW as LoginWidget
+
+App->>AS: Initialize AppState
+AS-->>App: Session = Unauthenticated (immutable)
+App->>MW: Create MainWindow
+MW->>AS: Subscribe to auth.changed
+MW->>LW: Show Login screen (Phase-1 always)
