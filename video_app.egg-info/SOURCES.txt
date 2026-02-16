@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+video_app.egg-info/PKG-INFO
+video_app.egg-info/SOURCES.txt
+video_app.egg-info/dependency_links.txt
+video_app.egg-info/requires.txt
+video_app.egg-info/top_level.txt

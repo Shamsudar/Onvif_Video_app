@@ -1,0 +1,11 @@
+[project]
+name = "video-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyside6>=6.10.2",
+]
+[tool.uv]
+package = true
